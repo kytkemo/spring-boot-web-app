@@ -11,11 +11,11 @@ Install the archetype to your local Maven repository with `mvn clean install`.
 
 Create projects from the archetype.
 
-    mvn archetype:generate -DarchetypeGroupId=com.kytkemo
-                           -DarchetypeArtifactId=spring-boot-web-app
-                           -DarchetypeVersion=1.0.6
-                           -DgroupId=com.yourcompany
-                           -DartifactId=ProjectName
+    mvn archetype:generate -DarchetypeGroupId=com.kytkemo \
+                           -DarchetypeArtifactId=spring-boot-web-app \
+                           -DarchetypeVersion=1.0.6 \
+                           -DgroupId=com.yourcompany \
+                           -DartifactId=ProjectName \
                            -Dpackage=com.yourcompany.projectname
 
 ## Developing a Project
