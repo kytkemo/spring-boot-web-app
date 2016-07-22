@@ -13,7 +13,7 @@ Create projects from the archetype.
 
     mvn archetype:generate -DarchetypeGroupId=com.kytkemo \
                            -DarchetypeArtifactId=spring-boot-web-app \
-                           -DarchetypeVersion=1.0.7 \
+                           -DarchetypeVersion=1.0.8 \
                            -DgroupId=com.yourcompany \
                            -DartifactId=ProjectName \
                            -Dpackage=com.yourcompany.projectname
